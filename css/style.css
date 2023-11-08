@@ -151,6 +151,7 @@ h2 {
 .about-lists ul li img{
    margin:auto;
    display: inline-block;
+   vertical-align: middle;
    width: 6%;
    margin-right: 10px;
    border-radius: 100%;
@@ -172,7 +173,7 @@ h2 {
 .location-img{
     width:40%;
     margin-top: 100px;
-    display: inline-block;
+    float: right;
 }
 
 .location-img img{
@@ -180,9 +181,10 @@ h2 {
 }
 
 .location-content{
+    margin-top: 200px;
     color:RGB(104, 104, 104);
     width: 40%;
-    display: inline-block;
+    float: left;
     margin-left:70px;
     margin-right:50px;
     font-size: 15px;
@@ -286,7 +288,7 @@ h2 {
 }
 
 .contact-content-list ul li img{
-    vertical-align: baseline;
+    vertical-align: middle;
     width: 5%;
     border: #8E7754 solid 1px;
     border-radius: 100%;
@@ -334,16 +336,16 @@ h2 {
 .cap ul li img{
     width: 6%;
 }
-.cap-contact{
-    background-image: url('../images/contact-details-map.png');
-    background-repeat: no-repeat;
-    background-position: center;
+
+
+.cap .world-img{
+    background-color: rgba(0, 0, 0, 0.1z);
 }
 
 .cap-contact ul li img{
     width: 12%;
     margin-right: 5px;
-    vertical-align: baseline;
+    vertical-align: middle;
 }
 
 .height-tight{
@@ -383,10 +385,3 @@ input {
 
 
 
-/*media query*/    
-
-@media screen and (max-width:600px){
-    .about-content{
-        width:100%;
-    }
-}

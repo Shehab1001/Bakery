@@ -1,9 +1,10 @@
 *{
     margin: 0;
+    scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Alegreya Sans', sans-serif;
-
 }
 
 .side-bar{
@@ -20,7 +21,7 @@ body {
 
 h1{
     font-family: 'Alegreya', serif;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 400;
     margin: 20px;
 }
@@ -36,9 +37,10 @@ h1{
 }
 
 .nav{
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-bottom: 100px;
+    
 }
 
 .nav-img {
@@ -74,6 +76,7 @@ h1{
 }
 
 .content{
+    margin-top: 100px;
     text-align: center;
     color: white;
 }
@@ -81,7 +84,13 @@ h1{
 
 
 .content p{
-    font-size: 25px;
+    font-size: 23px;
+}
+
+.p-content{
+    width: 45%;
+    margin: auto;
+    line-height: 6vh;
 }
 
 
@@ -92,7 +101,7 @@ h1{
     font-size: 17px;
     margin: 30px 10px;
     font-family: 'Alegreya Sans', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .btn-1{
@@ -112,19 +121,31 @@ h1{
     height: 50px;
     border-radius: 40%;
     margin: auto;
+    
+}
+
+.dot-oval-btn{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 11px;
+    margin-top: 20px;
+    
 }
 
 /*About Section*/
 
 .about{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
 }
 
 .about-img{
-    width:50%;
-    display: inline-block;
+    width:40%;
+    float: left;
+    margin-left: 50px;
 }
 
 .about-img img{
@@ -133,10 +154,10 @@ h1{
 
 .about-content{
     color:RGB(104, 104, 104);
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    margin: 30px 90px;
+    width: 45%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 80px;
     font-size: 17px;
     text-align: left;
 }
@@ -155,7 +176,7 @@ h2 {
 }
 
 .about-lists ul{
-    line-height: 50px;
+    line-height: 60px;
     list-style: none;
 }
 
@@ -184,6 +205,7 @@ h2 {
 .location-img{
     width:40%;
     margin-top: 100px;
+    margin-right: 100px;
     float: right;
 }
 
@@ -196,9 +218,8 @@ h2 {
     color:RGB(104, 104, 104);
     width: 40%;
     float: left;
-    margin-left:70px;
-    margin-right:50px;
-    font-size: 15px;
+    margin-left:100px;
+    font-size: 17px;
 }
 
 .location-content p {
@@ -220,13 +241,13 @@ h2 {
 }
 
 .baking-title h2{
-    margin-top: 50px;  
-    margin-bottom: 12px;  
+    margin-top: 70px;  
+    margin-bottom: 20px;  
 }
 
 .baking-title p {
     color:RGB(104, 104, 104);
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .item {
@@ -276,7 +297,7 @@ h2 {
     margin-top: 60px;
     width: 50%;
     float: left;
-    line-height: 30px;
+    line-height: 32px;
     font-size: 17px;
     color:RGB(104, 104, 104);;
 }
@@ -285,7 +306,7 @@ h2 {
 }
 .contact-map{
     margin-top: 40px;
-    width: 40%;
+    width: 45%;
     float: right;
 }
 
@@ -295,7 +316,7 @@ h2 {
 }
 
 .contact-content-list ul li{
-    line-height: 40px;
+    line-height: 60px;
 }
 
 .contact-content-list ul li img{
@@ -334,7 +355,7 @@ h2 {
 
 .cap p {
     color: gray;
-    line-height: 28px;
+    line-height: 25px;
     font-size: smaller;
 }
 .cap ul{
@@ -360,7 +381,7 @@ h2 {
 }
 
 .height-tight{
-    line-height: 10px;
+    line-height: 20px;
 }
 
 hr{

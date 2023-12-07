@@ -1,0 +1,301 @@
+/*
+breakPoints
+
+sm: 0 => 600px
+md: 601px => 768px
+lg: 769px => 992px
+xl: 993px => 1200px
+xxl: 1201px => up
+
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    /*-----HOME SECTION--------*/
+ .nav-bar{
+    display: none;
+ }
+
+ .home{
+    height: 50vh;
+    
+ }
+.dark-layer{
+    height: 50vh;
+}
+ .home-content{
+    padding: 5%;
+
+ }
+
+ .home-content h1 {
+    font-size: 35px;
+   
+}
+
+.home-content p {
+    font-size: 15px;
+}
+
+.p-content {
+    width: 95%;
+    height: 15%;
+    line-height: 4vh;
+}
+
+.home-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn {
+    
+    margin: 0.5vh;
+    padding: 10px 9px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.oval-btn {
+    margin: 3vh;
+    border: 1px solid white;
+    width: 20px;
+    height: 40px;
+    border-radius: 40%;
+
+}
+.dot-oval-btn {
+    width: 0.7vh;
+    height: 0.7vh;
+    left: 8px;
+    top: 6px;
+}
+
+    /*-----ABOUT SECTION--------*/
+
+
+.about {
+
+    height: 150vh;
+ 
+}
+
+.about-container {
+    width: 95%;
+   flex-direction: column;
+
+}
+
+
+.about-content {
+    height: 100%;
+    color: RGB(104, 104, 104);
+    width: 100%;
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 25px;
+  
+}
+
+.about-content p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    width: 90%;
+}
+.about-lists{
+
+    margin-left: 25px;
+}
+.about-lists ul {
+    line-height: 45px;
+}
+
+
+.about-lists ul li i {
+    font-size: 18px;
+
+}
+.about-img {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+    /*-----LOCATION SECTION--------*/
+
+
+
+.location {
+    height: 120vh;
+}
+
+
+.location-container {
+    width: 90%;
+    height: 90vh;
+    flex-direction: column;
+
+}
+
+.location-description { 
+
+    width: 100%;
+    height: 50vh;
+ 
+
+}
+.location-description p {
+
+   width: 100%;
+    padding-bottom: 250px;
+    }
+.location-img {
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+    /*-----BAKING SECTION--------*/
+
+    .baking {
+        height: 200vh;
+        flex-direction: column;
+      
+    }
+
+    .baking-title p{
+   
+       width: 80%;
+    }
+    
+
+    .baking-container {
+        width: 100%;
+        height: 95%;
+      
+        flex-direction: column;
+        
+    }
+
+    .baking-content {
+        flex-direction: column;
+    
+    }
+
+    .item {
+        padding-top: 40px;
+        width: 100%;      
+      
+    }
+
+    .item:hover {
+        transform: none;
+        box-shadow: none;
+        
+    }
+
+    .item:hover img {
+        transform: none;
+    }
+    
+
+
+    /*-----CONTACT SECTION--------*/
+
+
+    .contact {
+        height: 250vh;
+        width: 100%;
+      
+    }
+    .contact .container {
+        flex-direction: column;
+        padding-top: 250px;
+    }
+
+    .contact-content {      
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .contact-map {
+        
+        width: 100%;
+        height: 50vh;
+    }
+
+
+    /*-----DETAILS SECTION--------*/
+
+
+    .details {
+      
+        height: 180vh;
+        flex-direction: column;
+    }
+
+    .details .container {
+        width: 100%;
+       flex-direction: column;
+    }
+
+    .details .container .cap {
+        padding-top: 50px;
+        width: 90%;
+    }
+    
+        /*-----FOOTER SECTION--------*/
+
+        .footer {
+            height: 30vh;
+           
+        }
+
+        .footer-container {
+            width: 90%;
+        
+        }
+
+        .footer-img {
+            width: 45%;
+        
+        }
+
+        .footer-img img{
+            width: 100%;
+        }
+        .social-footer i {
+            margin: 12px;
+            font-size: 17px;
+        }
+
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
+    
+
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: red;}
+  }
+  
